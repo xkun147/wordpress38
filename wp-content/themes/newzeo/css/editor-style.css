@@ -1,0 +1,116 @@
+html .mceContentBody {
+	max-width: 600px;
+	padding: 20px;
+}
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 13px; line-height: 1.7; }
+body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #373737; }
+::-moz-selection { background: #eb6841; color: #fff; text-shadow: none; }
+::selection { background: #eb6841; color: #fff; text-shadow: none; }
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+a { color: #00a0b0; text-decoration: none; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+a:visited { color: #00a0b0; }
+a:hover { color: #c02942; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+h1 { color: #c02942; font-size: 26px; }
+h2 { color: #000; font-size: 18px; }
+h3 { color: #666; border-bottom: 1px dotted #DEDEDE; }
+h4, h5, h6 { color: #666; font-size: 14px; }
+
+address { display: block; margin: 10px 0; font-style: normal; color: #666; }
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; font-family: Georgia, serif; font-style: italic; font-weight: normal; }
+cite { color: #666; font-size: 12px; font-weight: 400; letter-spacing: 0.05em; text-transform: uppercase; font-style: normal;  }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+p { padding: 0 0 5px 0}
+
+/* Wordpress generated CSS */
+.page-link {}
+	.page-link a { padding:3px 8px; margin: 0px 1px; background: #EEE; }
+.wp-caption {max-width: 96%;}
+.wp-caption-text { color: #666; font-size: 12px;  margin: 0 5px 5px 5px; text-align: center; }
+article.sticky { background: #F6F6F6; border-top: 1px dotted #CCC; border-bottom: 1px dotted #DEDEDE; padding: 10px; }
+.gallery-caption  {}
+.bypostauthor {}
+.alignright { display: inline; float: right; margin-left: 15px;}
+.alignleft { display: inline; float: left; margin-right: 15px;}
+.aligncenter { clear: both; display: block; margin-left: auto; margin-right: auto; }
+
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
+ul { list-style: square ; }
+ol ol { list-style: upper-alpha; }
+ol ol ol { list-style: lower-alpha; }
+dl { margin: 0 15px; }
+dt { color: #000; }
+dd { margin: 0 0 15px 10px;}
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+img { border: 0; -ms-interpolation-mode: bicubic; /* vertical-align: middle; */ }
+.entry-content img, .comment-content img, .widget img { max-width: 98%; margin-top: 10px; margin-bottom: 10px; }
+.wp-caption img{ max-width: 98%; display: block; margin: 0 auto;}
+img.size-full, img.size-large { max-width: 97.5%; width: auto; height: auto; }
+img[class*="align"], img[class*="wp-image-"]{ border: 1px solid #DDDDDD; padding: 6px; margin: 5px;}
+svg:not(:root) { overflow: hidden; }
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+figure { margin: 0; }
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; *overflow: visible; }
+table button, table input { *overflow: auto; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+table { border-collapse: collapse; border-spacing: 0; }
+.entry-content table { border-bottom: margin: 0 0 15px ; width: 100%; }
+th, td { text-align: left;  }
+td { vertical-align: top; border-top: 1px solid #DDD; padding: 5px 10px 5px 0; }
+th { font-weight: 400; font-size: 13px; color: #666; text-transform: uppercase; }

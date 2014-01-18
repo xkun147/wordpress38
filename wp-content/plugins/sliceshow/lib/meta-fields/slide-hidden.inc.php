@@ -1,0 +1,1 @@
+<input type="hidden" name="slide[<?php echo $gk;?>][<?php echo $sk;?>]" id="<?php echo $sk;?>" value="<?php echo $slide; ?>" class="<?php echo $field['class']; ?><?php echo $req; ?>" size="30" />

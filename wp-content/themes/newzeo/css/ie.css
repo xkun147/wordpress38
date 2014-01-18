@@ -1,0 +1,22 @@
+
+/* === 1140gs === */
+.onecol { width: 4.7%; }
+.twocol { width: 13.2%; }
+.threecol { width: 22.05%; }
+.fourcol { width: 30.6%; }
+.fivecol { width: 39%; }
+.sixcol { width: 48%; }
+.sevencol { width: 56.75%; }
+.eightcol { width: 61.6%; }
+.ninecol { width: 74.05%; }
+.tencol { width: 82%; }
+.elevencol { width: 91.35%; }
+
+/* Sidebar left random images */
+.random-thumb ul li { width: 80px; height: 80px;  margin: 1px 1px 0 1px; }
+
+/* Sidebar right popular post */
+#popular-post h2 { background: #000 }
+
+/* Homepage thumbnail */
+.entry-thumb ul li { width: 80px; height: 80px; margin: 1px 1px 0 1px;}

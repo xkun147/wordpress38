@@ -1,0 +1,111 @@
+
+/* =============================================================================
+   Dark theme
+   ========================================================================== */
+   
+ /* Body */
+body { background: #111 url("../images/top-body-bg.jpg") repeat-x top; padding: 20px 0 0 0; }
+body, button, input, select, textarea { color: #777; }
+
+h1 { color: #c02942; }
+h2 { color: #BBB;  }
+h3 { color: #999; border-bottom: 1px dotted #444;  }
+h4, h5, h6 { color: #999;}
+
+.entry-content img, .comment-content img, .widget img {background: #444;}
+img[class*="align"], img[class*="wp-image-"]{ border: 1px solid #4A4A4A; }
+
+td {  border-top: 1px solid #333;  }
+
+
+/* Topmenu */
+#topmenu ul li { background: #222; color: #444;}
+#topmenu ul a { color: #666; }
+#topmenu ul ul li, #topmenu ul ul ul li { background: #222; }
+#topmenu u ul a { background: #222; }
+#topmenu ul li:hover > a, #topmenu ul ul :hover > a { background: #666; color: #AAA; }
+#topmenu ul ul a:hover { background: #666; }
+#topmenu ul li:hover > ul { display: block; }
+#topmenu ul li.current_page_item {  background: #444;}
+#topmenu ul li.current_page_item a { color: #CCC; }
+	
+/* Searchbox */
+#searchbox #s { background-color: #666; }
+#searchbox #s:focus { width: 200px; background-color: #F9F9F9; }
+input#s { background: url("../images/search.png") no-repeat scroll 5px 6px transparent; border: 1px solid #888; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1) inset; color: #888888; }
+label.screen-reader-text  { clip: rect(1px, 1px, 1px, 1px); position: absolute !important; }
+	
+/* Article */
+article.sticky { background: #222; border-top: 1px dotted #555; border-bottom: 1px dotted #555; padding: 10px; color: #888;}
+article {border-bottom: 1px dotted #333;}	
+
+.page-link a { background: #444; }
+.page-link a:hover { background: #999; }
+
+.entry-meta a { color: #555; }
+.entry-meta  a:hover { color: #999; border-bottom: 1px dotted #666; }
+
+.entry-title a:hover{ color: #EEE; border: none; }
+
+.related-post { border-bottom: 1px dotted #333; }
+	.related-post ul li { border-right: 1px solid #333; }
+	.related-post ul li:hover{ background: #191919; }
+	.related-post ul li img { background: #444; border: 1px solid #4A4A4A;}
+	
+.datebox, .authorbox, .commentcountbox, .socialsharebox {color: #555; }
+	.datebox a time{ color: #444; }
+	.datebox a time:hover { color: #999; }
+	
+.socialsharebox{ background: #333; color: #666;}
+.socialshareboxsingle  { background: #333; color: #666;}
+
+/* Comments */
+
+#comments-list li.depth-1 {  border-bottom: 1px dotted #666; background: #222;}
+#comments-list li.depth-2 {  border-left: 1px dotted #666; border-top: 1px dotted #666;background: #333; }
+#comments-list li.depth-3 { border-left: 1px dotted #666; border-top: 1px dotted #666;background: #444; }
+.comment-author { color: #CCC;}
+.comment-meta { color: #666; }
+.comment-reply-link a{ background: #555; }
+.comment-reply-link a:hover{background: #EEE;}
+	
+#respond .comment-form-author .required, 
+#respond .comment-form-email .required { color: #BD3500;}
+#commentform  input, 
+#commentform textarea{background: #222; border: 1px solid #444; }
+#commentform input:focus, 
+#commentform textarea:focus { background: #444; color: #999; }
+#commentform .form-submit input[type="submit"]:hover { background: #333; color: #CCC; }
+.no-comments {color: #AAA; }
+	
+
+/* Sidebar */
+.leftcontent ul li, #sidebar ul li{ border-bottom: 1px dotted #444; }
+.leftcontent ul ul li, #sidebar ul ul li {border-top: 1px dotted #444;}
+.leftcontent ul li:hover{ border-bottom: 1px solid #999; }
+.leftcontent ul ul li:hover, #sidebar ul ul li :hover { border-top: 1px solid #999; }
+	
+#sidebar .catleft li,#sidebar .catright li {border-bottom: 1px dotted #444; }
+#sidebar .catleft li:hover, #sidebar .catright li:hover { border-bottom: 1px solid #999; }
+
+/* Additional */
+.pagination span, .pagination a {background: #333;}
+.pagination span { color: #AAA; background: #555; }
+.pagination a:hover{ color:#AAA; background: #555; }
+.pagination .current{ color:#CCC;background: #555;}
+.linkwithin_posts a:hover { color: #AAA; }
+
+#breadcrumbs{border-bottom: 1px dotted #333; color: #AAA;}
+	
+/* Footer */
+.footer { background: #222; color: #666;}
+
+
+	
+	
+	
+	
+	
+	
+	
+	

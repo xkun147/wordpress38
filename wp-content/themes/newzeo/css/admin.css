@@ -1,0 +1,12 @@
+
+/* Theme Option CSS */
+
+#newzeo-option {}
+
+.row { width: 100%; overflow: hidden; margin: 15px 5px; }
+.columntitle { width: 200px; float: left; }
+.columntext { width: 300px; float: left; }
+.columnthumb { width: 400px; float: left; }
+.columnthumb label { width: 150px; float: left; margin: 5px 10px;  }
+.columnlabel { width: 200px; float: left; padding: 4px 5px; color: #AAA; font-size: 11px;}
+

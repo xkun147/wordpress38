@@ -1,0 +1,182 @@
+#sliceshow-box_seed {
+	display: none;
+}
+
+/* Icons */
+.icon32-posts-sliceshow {
+	background: url(../images/icon-sliceshow-32.png) no-repeat 0 0!important;
+}
+#menu-posts-sliceshow .wp-menu-image {
+	background: url(../images/icon-sliceshow-menu.png) no-repeat 6px -2px !important;
+}
+#menu-posts-sliceshow:hover .wp-menu-image {
+	background-position: 6px -32px !important;
+}
+#menu-posts-sliceshow.wp-has-current-submenu .wp-menu-image {
+	background-position: 6px -62px !important;
+}
+
+/* List View */
+tr.sliceshow td.slide_image img,
+tr.type-sliceshow td.slide_image img {
+	max-width: 150px;
+	max-height: 150px;
+	margin-right: 20px;
+	float: left;
+}
+tr.sliceshow td.slide_image,
+tr.type-sliceshow td.slide_image {
+	padding-bottom: 5px;
+}
+tr.sliceshow td.slide_image .slideshow-actions .slideshow-title,
+tr.type-sliceshow td.slide_image .slideshow-actions .slideshow-title {
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+tr.sliceshow td.slide_image .slideshow-actions p.shortcode-wrap,
+tr.type-sliceshow td.slide_image .slideshow-actions p.shortcode-wrap {
+	margin-bottom: 20px;
+}
+tr.sliceshow td.slide_image .slideshow-actions p .shortcode,
+tr.type-sliceshow td.slide_image .slideshow-actions p .shortcode,
+div#slide_settings_meta_box .shortcode-wrap .shortcode {
+	padding: 4px 10px;
+	background-color: #fff;
+	box-shadow: 0px 1px 3px #ccc;
+}
+
+/* Edit View */
+#slides #slide-wrapper .custom_preview_image {
+	max-width: 150px;
+	margin-bottom: 10px;
+}
+#slides #slide-wrapper .hndle {
+	display: block;
+	background: url('../images/icon-sort-handle.png') no-repeat -1px -3px;
+	height: 15px;
+	text-indent: -9000px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#slides #slide-wrapper .hndle:hover {
+	background-position: -1px -22px;
+}
+#slides #slide-wrapper .sliceshow-group {
+	padding-bottom: 10px;
+	clear: both;
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 3px #ccc;
+}
+#slides #slide-wrapper .slide-image-wrap {
+	width: 150px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	float: left;
+}
+#slides #slide-wrapper .slide-title-url-wrap {
+	float: left;
+}
+#slides #slide-wrapper .slide-title-url-wrap .description {
+	display: block;
+	margin-bottom: 20px;
+}
+/* Delete Button */
+#slides #slide-wrapper .custom_clear_image_button {
+	display: none;
+}
+#slides #slide-wrapper .repeatable-remove {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background: url('../images/icon-trash.png') no-repeat 0 -3px;
+	padding-left: 15px;
+	font-size: 11px!important;
+	color: #d90000;
+	text-decoration: none;
+}
+#slides #slide-wrapper .repeatable-remove:hover {
+	background-position: 0 -22px;
+}
+#slides #slide-wrapper .repeatable-remove:active {
+	background-position: 0 -22px;
+	color: #8c0000;
+}
+
+/* Add Button */
+#slides .repeatable-add-wrap {
+	overflow: hidden;
+}
+#slides .repeatable-add {
+	display: block;
+	width: 61px;
+	height: 61px;
+	background: url('../images/add-button.png') no-repeat left top;
+	opacity: .9;
+	text-indent: -9000px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+#slides .repeatable-add:hover {
+	opacity: 1;
+}
+#slides .repeatable-add:active {
+	background-position: left bottom;
+}
+
+/* Error Fields */
+#slides #slide-wrapper .error {
+	color: red;
+}
+#slides #slide-wrapper .slide-image-wrap .error {
+	margin-bottom: 10px;
+	display: block;
+}
+
+/* Meta Box */
+div#slide_settings_meta_box .form-table {
+	width: 100%;
+}
+div#slide_settings_meta_box .form-table th {
+	width: 40%;
+	height: auto!important;
+}
+div#slide_settings_meta_box .form-table td {
+	width: 60%;
+	height: auto!important;
+}
+div#slide_settings_meta_box .sliceshow-meta-note {
+	color: #999;
+	font-size: 10px;
+	font-style: italic;
+}
+div#slide_settings_meta_box .cycle2-settings-max-height th,
+div#slide_settings_meta_box .cycle2-settings-max-height td,
+div#slide_settings_meta_box .cycle2-settings-image-height th,
+div#slide_settings_meta_box .cycle2-settings-image-height td {
+	border-bottom: 1px solid #dfdfdf;
+	padding-bottom: 15px;
+}
+div#slide_settings_meta_box .slide-settings-image-width,
+div#slide_settings_meta_box .slide-settings-image-height,
+div#slide_settings_meta_box .slide-settings-speed,
+div#slide_settings_meta_box .cycle2-settings-max-width,
+div#slide_settings_meta_box .cycle2-settings-max-height,
+div#slide_settings_meta_box .cycle2-settings-image-width,
+div#slide_settings_meta_box .cycle2-settings-image-height,
+div#slide_settings_meta_box .cycle2-settings-slideshow-speed,
+div#slide_settings_meta_box .cycle2-settings-animation-speed,
+div#slide_settings_meta_box select {
+	width: 100%;
+}
+div#slide_settings_meta_box #cycle2-settings-slide-size-fixed {
+	margin-left: 10px;
+}
